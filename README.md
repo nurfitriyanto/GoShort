@@ -46,7 +46,7 @@ $ python3 run.py
 
 Open your browser
 
-1. Generate your long url
+1. Generate your long url. 
 Example : http://0.0.0.0:5000/longShortUrl?longUrl=https://github.com/nurfitriyanto/GoShort
 Output :
 ```bash
@@ -57,7 +57,7 @@ Output :
 }
 ```
 
-1. Generate your short url
+2. Generate your short url.
 Example : http://0.0.0.0:5000/shortLongUrl?shortUrl=https://goo.gl/1wBMcE
 Output :
 ```bash
@@ -69,7 +69,7 @@ Output :
 }
 ```
 
-3. analytics
+3. analytics. 
 Example : http://0.0.0.0:5000/analytics?shortUrl=https://goo.gl/1wBMcE
 
 ```bash
