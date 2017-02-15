@@ -46,9 +46,12 @@ $ python3 run.py
 
 Open your browser
 
-1. Generate your long url.  \n
-Example : http://0.0.0.0:5000/longShortUrl?longUrl=https://github.com/nurfitriyanto/GoShort \n
-Output : \n
+a. Generate your long url.
+
+Example : http://0.0.0.0:5000/longShortUrl?longUrl=https://github.com/nurfitriyanto/GoShort
+
+Output :
+
 ```bash
 {
   "id": "https://goo.gl/1wBMcE", 
@@ -57,9 +60,12 @@ Output : \n
 }
 ```
 
-2. Generate your short url. \n
-Example : http://0.0.0.0:5000/shortLongUrl?shortUrl=https://goo.gl/1wBMcE \n
-Output : \n
+b. Generate your short url.
+
+Example : http://0.0.0.0:5000/shortLongUrl?shortUrl=https://goo.gl/1wBMcE
+
+Output :
+
 ```bash
 {
   "id": "https://goo.gl/1wBMcE", 
@@ -69,9 +75,12 @@ Output : \n
 }
 ```
 
-3. analytics. \n
-Example : http://0.0.0.0:5000/analytics?shortUrl=https://goo.gl/1wBMcE \n
-Output : \n
+c. analytics.
+
+Example : http://0.0.0.0:5000/analytics?shortUrl=https://goo.gl/1wBMcE 
+
+Output : 
+
 ```bash
 {
   "analytics": {
