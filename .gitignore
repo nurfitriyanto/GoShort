@@ -1,0 +1,8 @@
+__pycache__/*
+venv3/*
+.DS_Store
+.git
+*.pyc
+settings.py
+config.py
+

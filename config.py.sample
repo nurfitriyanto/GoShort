@@ -1,0 +1,4 @@
+#! config.py
+
+URL_API = 'https://www.googleapis.com/urlshortener/v1/url'
+KEY_TOKEN = '' #insert your key token
